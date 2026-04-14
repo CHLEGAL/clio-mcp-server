@@ -1,0 +1,22 @@
+{
+  "name": "clio-mcp-server-ch-llp",
+  "version": "1.0.0",
+  "description": "Clio MCP Server for Choueke Hollander LLP – Claude Integration",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/auth/setup.js",
+    "test-connection": "node src/auth/test-connection.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "open": "^10.1.0",
+    "zod": "^3.25.76"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
